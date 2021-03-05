@@ -1,0 +1,80 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #2b2d30;
+  color: white;
+  text-align:center;
+}
+
+h1 {
+  font-style: italic;
+  color: #3afce6;
+  font-family: verdana, arial, sans-serif; 
+}
+.text1{
+  font-size:25px;
+}
+button{
+  width:80px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: yellow;
+  text-align:center;
+}
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin: 10px;
+}
+.hidden{
+  display:none;
+}
+/* .container{
+  text-align:center;
+} */
+#button1{
+  background-color: lightgreen;
+}
+#button2{
+  background-color: lightblue;
+}
+#button3{
+  background-color: pink;
+}
+#button4{
+  background-color: lightyellow;
+}
+#button5{
+  background-color: #EECBAD;
+}
+#button6{
+  background-color: #B19CD9;
+}
+
+#button1:active, #button1.lit{
+/*   background-color: green */
+  background-image: url("https://cdn.glitch.com/4c767936-c0f0-4133-af71-9fc9b49ca5e0%2Fdownload.jpg?v=1614763386459");
+  
+}
+#button2:active, #button2.lit{
+  background-image: url("https://cdn.glitch.com/4c767936-c0f0-4133-af71-9fc9b49ca5e0%2Fopal-OTR-100-smaller.jpg?v=1614763387576");
+  background-size: contain;
+}
+#button3:active, #button3.lit{
+  background-image: url("https://cdn.glitch.com/4c767936-c0f0-4133-af71-9fc9b49ca5e0%2F51UhwmUsaiL._AC_SL1200_.jpg?v=1614763386905");
+  background-size: contain;
+}
+#button4:active, #button4.lit{
+  background-image: url("https://cdn.glitch.com/4c767936-c0f0-4133-af71-9fc9b49ca5e0%2FLuisandClarkVIOLIN_2K.jpg?v=1614763387218");
+  background-size: contain;
+}
+#button5:active, #button5.lit{
+  background-image: url("https://cdn.glitch.com/4c767936-c0f0-4133-af71-9fc9b49ca5e0%2Fpreview_4.jpg?v=1614763387257");
+  background-size: contain;
+}
+#button6:active, #button6.lit{
+  background-image: url("https://cdn.glitch.com/4c767936-c0f0-4133-af71-9fc9b49ca5e0%2Fsmall.jpg?v=1614763387030");
+  background-size: contain;
+}
